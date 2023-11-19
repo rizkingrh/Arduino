@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6yrMewhS5"
-#define BLYNK_TEMPLATE_NAME "Projectdasmik"
-#define BLYNK_AUTH_TOKEN "9N5wcSd9KXz_d8lXB_H5pLIG-7tPg5NR"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #define BLYNK_PRINT Serial
 
 #include <SPI.h>
@@ -15,8 +15,8 @@ Adafruit_SSD1306 display(128, 64, &Wire);
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "TSA";
-char pass[] = "02062004";
+char ssid[] = "";
+char pass[] = "";
 
 unsigned long previousMillisGetHR = 0; //--> menyimpan waktu millis ketika sudah diperbaharui (heartbeat)
 unsigned long previousMillisResultHR = 0; //--> menyimpan waktu millis ketika sudah diperbaharui (BPM)

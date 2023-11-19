@@ -1,10 +1,10 @@
 #include "CTBot.h"
 CTBot myBot;
 
-String ssid = "TSA";
-String pass = "02062004";
-String token = "6453487650:AAH0-We-9-RvDuVj9FYumzELSJGCAo4TI9U";
-const int id = 1837173195;
+String ssid = "";
+String pass = "";
+String token = "";
+const int id = ;
 String pesan = "";
 
 void setup() {
